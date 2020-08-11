@@ -1,13 +1,14 @@
 package main
 
 import (
-	"GoPractice/accounts"
 	"fmt"
+
+	"./accounts"
 )
 
 func main() {
 
 	account := accounts.NewAccount("HO")
-	fmt.Println(account)
 
+	fmt.Println(account)
 }
